@@ -1,0 +1,27 @@
+.header {
+    height: 100px;
+    background-color: $color-primary;
+    color: $color-white;
+    font-size: 2rem;
+}
+
+.main {
+    margin: 3rem 0;
+    
+    &__left-sidebar {
+        background-color: $color-primary-light;
+        height: 200px;
+    }
+    
+    &__right-content {
+        background-color: $color-primary-light;
+        height: 200px;
+    }
+}
+
+.footer {
+    background-color: $color-gray-dark-1;
+    color: $color-white;
+    height: 100px;
+    font-size: 2rem;
+}
